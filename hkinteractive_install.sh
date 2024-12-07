@@ -16,7 +16,7 @@ expect "是否安装常用工具" { send "y\r" }
 expect eof
 
 # 第二个交互式脚本
-spawn bash /tmp/nyanpass-install.sh rel_nodeclient "-o -t b021cf46-55ee-4a19-b651-3e5a525a9128 -u https://ny.papawall.cc"
+spawn bash /tmp/nyanpass-install.sh rel_nodeclient "-o -t f53ae9bb-e977-48a9-8b99-f03eb0f1ae39 -u https://ny.papawall.cc"
 
 # 第一次交互：输入服务名
 expect "请输入服务名" { send "jason\r" }
